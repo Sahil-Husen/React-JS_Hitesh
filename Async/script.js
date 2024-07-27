@@ -25,7 +25,7 @@ function getRandomColor(){
       color +=lettters[Math.floor(Math.random() * 16)]
      }
      return color
-     console.log(color);
+    //  console.log(color);
 
 }
 
@@ -34,6 +34,7 @@ console.log(getRandomColor());
  
 function stopInterval(){
     clearInterval(close)
+    close =null;
 }
 
 stop.addEventListener('click',stopInterval)
