@@ -1,0 +1,57 @@
+body{
+    background-color: black;
+    color: white;
+    /* height: 100vh;
+    display: flex;
+    align-items: center; */
+    
+}
+.main{
+    /* height: 100vh; */
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    
+     
+}
+.container{
+    background-color: beige;
+    color: black;
+     /* width: 50%; */
+     text-align: center;
+     margin: 10px;
+     padding: 10px;
+     display: flex;
+     flex-direction:column;
+     gap: 20px;
+}
+  input:first-child{
+    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 5px;
+    /* width: 100%; */
+    
+     
+  }
+  .content{
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+  }
+  button{
+    padding: 10px 10px;
+    font-size:larger;
+  }
+  button:active
+  {
+    color: blue;
+    font-weight: bold;
+  }
+  #display{
+    color: blue;
+    font-size: large;
+  }

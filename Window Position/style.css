@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    background-color:black;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    
+}
+h1{
+    color:black;
+    margin-top:10%;
+}
+.main{
+    display: flex;
+    gap: 10px;
+    background-color: #5a4147;
+    color: #dfd0d0;
+    height: 200px;
+    width:50%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.div{
+   
+    height:180px;
+    text-align:center;
+    width:200px;
+    border:2px solid black;
+}

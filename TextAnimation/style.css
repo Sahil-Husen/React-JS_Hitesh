@@ -1,0 +1,45 @@
+ body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    
+
+}
+span{
+    font-size: 10rem;
+    font-weight: bold;
+    font-family:monospace;
+    display: inline-block;
+    background-image: url(./walpaper.jpg);
+    background-size: contain;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+span.active{
+    animation: jump 5s  ease-in-out 0s infinite forwards;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+ }
+ @keyframes jump {
+    0%{
+        transform:translate(0,0);
+       
+    }
+    50%{
+        /* transform: rotate(180deg) translate(1px, 20px); */
+    }
+     
+    100%{
+         background-image: url(./walpaper.jpg);
+         background-size: contain;
+         -webkit-background-clip: text;
+         -webkit-text-fill-color: transparent;
+        /* background: linear-gradient(blue,gray,cyan); */
+        transform:scale(2.5) translate(0,-100%);
+       
+    }
+ }
+ 
