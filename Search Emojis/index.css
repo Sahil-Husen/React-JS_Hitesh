@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  overflow: hidden;
+  width: 100vw;
+  min-height: 100vh;
+  height: auto;
+  color: white;
+  background-color: rgb(17, 17, 16);
+  padding: 100px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.main h1 {
+  font-size: 2rem;
+  font-family: cursive;
+}
+.main input {
+  padding: 1rem;
+  border-radius: 2rem;
+  border: none;
+  /* background-color: aquamarine; */
+  width: 20rem;
+  margin-right: 10px;
+  font-size: large;
+  font-weight: 500;
+  /* text-transform: uppercase; */
+  outline: none;
+}
+.main input:hover {
+  outline: auto;
+  border: none;
+}
+
+.inner-main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.inner-main button {
+  background-color: #f3f7fe;
+  color: #3b82f6;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  width: 100px;
+  height: 45px;
+  transition: 0.3s;
+}
+.inner-main button:hover {
+  background-color: #3b82f6;
+  box-shadow: 0 0 0 5px #3b83f65f;
+  color: #fff;
+}
+ 
+#displayData {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+
+  font-size: 30px;
+}
+#displayData ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#displayData li {
+  list-style: none;
+  margin: 20px;
+}
+
+@media screen and (max-width: 760px) {
+  .main{
+    overflow: hidden;
+    min-width: 100vw;
+   min-height: 100vh;
+
+   padding: 0;
+ 
+  }
+  .main h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom:15px ;
+    margin-top: 10px;
+    font-weight: bolder;
+  }
+  .input {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .input input {
+    padding: 1rem;
+    border-radius: 2rem;
+    border: none;
+
+    width: 14rem;
+    /* margin-right: 10px; */
+    font-size: large;
+    font-weight: 500;
+
+    outline: none;
+  }
+  .input button{
+    width: 60px;
+    padding: 10px;
+  }
+  #displayData{
+    display: flex;
+    font-size: 21px;
+    
+  }
+}
+
+
+ 
